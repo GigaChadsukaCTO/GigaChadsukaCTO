@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memecoin Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 10px;
+        }
+
+        /* Video Styling */
+        .hero video {
+            max-width: 80%;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Image Styling */
+        .hero img {
+            max-width: 300px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            margin-top: 20px;
+            /* Space between video and image */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #fff;
+            color: #1a1a2e;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0f3460;
+            color: #fff;
+        }
+
+        /* Flexbox for Icons Section */
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .icon-container a {
+            display: inline-block;
+            padding: 10px;
+            color: #fff;
+            font-size: 24px;
+            /* border: 2px solid #fff;
+            border-radius: 50%; */
+            /* transition: background-color 0.3s, transform 0.3s; */
+            transition: transform 0.3s;
+        }
+
+        .icon-container a:hover {
+            /* background-color: #fff;
+            color: #1a1a2e; */
+            transform: scale(1.1);
+        }
+
+        .contract-address {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #0f3460;
+            color: #fff;
+            font-size: 1.2em;
+            border-radius: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            word-wrap: break-word;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f3460;
+            color: #fff;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Giga Chadsuka</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Animated Video -->
+        <video autoplay loop muted>
+            <source src="./GCHAD graphics/2024-12-24 22.53.12.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <!-- Static Image -->
+        <img src="./GCHAD graphics/photo_2024-12-25_23-04-30.jpg" alt="Memecoin Graphic">
+        <br>
+        <!-- Call to Action -->
+        <a href="http://t.me/GigiChadsukaonSol" class="cta-button">Join the Community</a>
+    </section>
+
+    <!-- Icon Links Section -->
+    <section class="icon-container">
+        <!-- Dexscreener Icon -->
+        <a href="https://dexscreener.com/solana/2xwzznrz73eh95kshrbpwahqnip2o4kkzwf5hfx6whsq" target="_blank">
+            <img src="./GCHAD graphics/dex-screener-seeklogo.svg" alt="Dexscreener" style="width: 50px; height: 50px;">
+        </a>
+        <!-- Twitter Icon -->
+        <a href="https://x.com/gigichadonsol" target="_blank">
+            <img src="./GCHAD graphics/x-social-media-logo-icon.svg" alt="Twitter" style="width: 50px; height: 50px;">
+        </a>
+    </section>
+
+    <!-- Contract Address Section -->
+    <div class="contract-address">
+        Contract Address: <br> FP4K8gHxVgeQ15qZCco4onZCabR8cEfFn9vbngg7pump
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Giga Chadsuka CTO. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
